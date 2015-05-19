@@ -29,6 +29,7 @@ public class SQLiteJDBC
                     "FEEDBK TEXT NOT NULL," +
                     "EVENTID INTEGER NOT NULL," +
                     "FOREIGN KEY(EVENTID) REFERENCES EVENTS(EVENTID))";
+      // Brian Duppeeeeee
       stmt.executeUpdate(sql);
       stmt.close();
       c.close();
