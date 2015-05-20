@@ -1,4 +1,4 @@
-import java.sql.*;
+/*import java.sql.*;
 
 public class SQLiteJDBC
 {
@@ -11,7 +11,7 @@ public class SQLiteJDBC
       c = DriverManager.getConnection("jdbc:sqlite:test.db");
       System.out.println("Opened database successfully");
 
-      stmt = c.createStatement();
+      stmt = c.createStatement();*/
      /*String sql = "CREATE TABLE EVENTS " +
                    "(EVENTID INTEGER PRIMARY KEY AUTOINCREMENT," +
                    " NAME           TEXT    NOT NULL, " + 
@@ -24,12 +24,13 @@ public class SQLiteJDBC
                     "TICKETS INT NOT NULL," + 
                     "EVENTID INTEGER NOT NULL," + 
                     "FOREIGN KEY (EVENTID) REFERENCES EVENTS(EVENTID))";*/
-      String sql = "CREATE TABLE FEEDBACK" +
+     /* String sql = "CREATE TABLE FEEDBACK" +
                     "(FDBKID INTEGER PRIMARY KEY AUTOINCREMENT," +
                     "FEEDBK TEXT NOT NULL," +
                     "EVENTID INTEGER NOT NULL," +
-                    "FOREIGN KEY(EVENTID) REFERENCES EVENTS(EVENTID))";
+                    "FOREIGN KEY(EVENTID) REFERENCES EVENTS(EVENTID))";*/
       // Brian Duppeeeeee
+/*
       stmt.executeUpdate(sql);
       stmt.close();
       c.close();
@@ -39,4 +40,4 @@ public class SQLiteJDBC
     }
     System.out.println("Table created successfully");
   }
-}
+}*/
