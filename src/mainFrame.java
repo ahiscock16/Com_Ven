@@ -88,23 +88,23 @@ public class mainFrame extends JFrame {
 		contentPane.add(table);
 		
 		JButton btnNewButton = new JButton("Edit Selection");
-		btnNewButton.setBounds(413, 306, 123, 23);
+		btnNewButton.setBounds(413, 301, 123, 37);
 		contentPane.add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("Add Event");
-		btnNewButton_1.setBounds(413, 340, 123, 23);
+		btnNewButton_1.setBounds(413, 340, 123, 37);
 		contentPane.add(btnNewButton_1);
 		
 		JButton btnNewButton_2 = new JButton("Delete Selection");
-		btnNewButton_2.setBounds(413, 397, 123, 23);
+		btnNewButton_2.setBounds(413, 388, 123, 37);
 		contentPane.add(btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("Add Feedback");
-		btnNewButton_3.setBounds(413, 461, 123, 23);
+		btnNewButton_3.setBounds(413, 436, 123, 37);
 		contentPane.add(btnNewButton_3);
 		
 		JButton btnNewButton_4 = new JButton("View Feedback");
-		btnNewButton_4.setBounds(413, 495, 123, 23);
+		btnNewButton_4.setBounds(413, 481, 123, 37);
 		contentPane.add(btnNewButton_4);
 		
 		table_1 = new JTable();
@@ -126,16 +126,16 @@ public class mainFrame extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		btnNewButton_5.setBounds(617, 270, 89, 23);
+		btnNewButton_5.setBounds(617, 270, 89, 37);
 		contentPane.add(btnNewButton_5);
 		
 		textField = new JTextField();
-		textField.setBounds(10, 11, 86, 20);
+		textField.setBounds(10, 11, 92, 23);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
 		JToggleButton toggleButton = new JToggleButton("");
-		toggleButton.setBounds(112, 11, 60, 23);
+		toggleButton.setBounds(112, 11, 43, 23);
 		contentPane.add(toggleButton);
 		
 		JButton btnCalender = new JButton("Calender");
